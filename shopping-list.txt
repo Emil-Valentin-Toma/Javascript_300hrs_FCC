@@ -1,0 +1,6 @@
+//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list
+//pico-sized project
+
+var myList = [["Easter eggs", 10],["eggs", 30],["soft cheese", 10],["sugar", 1],["flour", 1]];
+
+console.log(myList);
