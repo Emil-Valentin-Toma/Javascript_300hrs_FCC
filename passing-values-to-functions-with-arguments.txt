@@ -1,0 +1,7 @@
+//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments
+
+function functionWithArgs(arg1, arg2) {
+  console.log(arg1+arg2);
+}
+
+functionWithArgs(5,7);
