@@ -1,0 +1,8 @@
+//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return
+function timesFive(inputNumber) {
+  return inputNumber*5;
+
+}
+
+var functionOutput = timesFive(5);
+console.log(functionOutput);
