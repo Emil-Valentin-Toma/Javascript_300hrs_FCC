@@ -1,0 +1,11 @@
+//Add the numbers 5 through 0 (inclusive) in descending order to myArray using a while loop.
+// Setup
+var myArray = [];
+
+// Only change code below this line
+var i = 5; //the assessor wants 5 included, not 4 as in requirement :|
+while (i>=0) {
+  myArray.push(i)
+  i--;
+}
+console.log(myArray);
