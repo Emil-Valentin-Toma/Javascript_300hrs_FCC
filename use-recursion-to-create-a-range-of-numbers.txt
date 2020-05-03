@@ -1,0 +1,17 @@
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum===endNum){
+    return [startNum]; // as soon as the endNum reaches the startNum value due
+                      //to repeteadly taking away 1, the push will stop working,
+                      //therefore the last number it must be identified explicitely.
+  }
+  else {
+    var counting = rangeOfNumbers(startNum, endNum-1);
+    counting.push(endNum) //now the array becomes bigger by one number
+    return counting;
+
+  }
+};
+
+console.log(rangeOfNumbers(1,5));
+console.log(rangeOfNumbers(6,9));
+console.log(rangeOfNumbers(4,4));
