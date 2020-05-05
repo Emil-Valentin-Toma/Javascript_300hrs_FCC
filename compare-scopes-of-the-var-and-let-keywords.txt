@@ -1,0 +1,19 @@
+
+
+function checkScope() {
+  'use strict';
+  let i = 'function scope';
+
+  if (true) {
+      let i = 'block scope'; //added let here, otherwise this value would
+                              //have had replaced the first i; better use
+                              //different names.
+      console.log('Block scope i is: ', i);
+      }
+
+  console.log('Function scope i is: ', i);
+
+  return i;
+}
+
+checkScope();
